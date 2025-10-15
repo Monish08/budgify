@@ -59,7 +59,7 @@ cd budgify
 3. Create a `.env` file in `backend/`:
    ```env
    PORT=5000
-   MONGO_URI=mongodb+srv://youruser:yourpassword@cluster0.t7mga.mongodb.net/budgify?retryWrites=true&w=majority
+   MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_random_secret_32_chars_long
    MISTRAL_API_KEY=your_mistral_api_key
    ```
