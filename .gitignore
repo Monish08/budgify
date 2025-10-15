@@ -1,27 +1,37 @@
-# Frontend
-frontend/node_modules
-frontend/dist
-frontend/.vite
-frontend/.env
-frontend/.env.local
-frontend/.env.development
-frontend/.env.test
-frontend/.env.production
+# =========================
+# FRONTEND
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env*
+frontend/.DS_Store
 
-# Backend
-backend/node_modules
-backend/.env
+# =========================
+# BACKEND
+# =========================
+backend/node_modules/
+backend/dist/
+backend/build/
 backend/*.log
-backend/dist
-backend/build
+backend/.env*
+backend/.DS_Store
 
-# General
-.idea
-.vscode
+# =========================
+# GLOBAL / GENERAL
+# =========================
+.DS_Store
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.swp
-.DS_Store
-*.local
+
+# =========================
+# OS and Package Managers
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
