@@ -132,4 +132,4 @@ cd budgify
 - **AI Insights Errors**: Verify `MISTRAL_API_KEY` and check backend logs for `Mistral API error`.
 - **MongoDB Connection**: Confirm `MONGO_URI` and network access in MongoDB Atlas.
 
-Built with ❤️ by Mickey.
+
